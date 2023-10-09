@@ -76,7 +76,7 @@ async function start() {
     // const fs = unixfs(helia)
 
     // Get the multiaddrs for the node.
-    const mutliaddrs = node.libp2p.getMultiaddrs()
+    const multiaddrs = node.libp2p.getMultiaddrs()
     console.log('Multiaddrs: ', multiaddrs)
 
   } catch(err) {
